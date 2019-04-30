@@ -3,16 +3,18 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: white;
+  border-color: white;
+  color: $primary;
   &:active,
   &:focus,
   &:hover {
-    background-color: darken($primary, 10%) !important;
-    border-color: darken($primary, 10%) !important;
+    background-color: darken($secondary, 7.5%) !important;
+    color: white;
+    border-color: darken($secondary, 7.5%) !important;
   }
   &:focus {
-    box-shadow: 0 0 0 0.2rem fade-out($primary, 0.5);
+    box-shadow: 0 0 0 0.2rem fade-out($secondary, 0.5);
   }
 }
 
